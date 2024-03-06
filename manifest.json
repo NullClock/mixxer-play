@@ -1,0 +1,14 @@
+{
+  "name": "Play Mixxer",
+  "description": "Play Mixxer, the better unblocked games website.",
+  "icons": [{
+    "src": "/images/logo.png",
+      "sizes": "460x460",
+      "type": "image/png"
+    }],
+  "lang": "en-GB",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "black",
+  "theme_color": "black"
+}

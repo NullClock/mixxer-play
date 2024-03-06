@@ -1,0 +1,7 @@
+{
+    "name": "Play Mixxer",
+    "description": "The better unblocked games website.",
+    "repository": "https://github.com/0",
+    "logo": "https://google.com/favicon.ico",
+    "buildpacks": [{"url": "https://github.com/heroku/heroku-buildpack-static"}]
+}

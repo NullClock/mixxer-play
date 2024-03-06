@@ -1,0 +1,22 @@
+<!-- <script>
+  const ws = new WebSocket("wss://playServer.mixxer.repl.co/ws");
+
+  function checkAndAlert() {
+    alert("Your username is: " + localStorage.getItem("uip"));
+  }
+  
+  function connectWS() {
+    (async()=>{
+      let crazy = await fetch("https://www.classicube.net/api/myip");
+      localStorage.setItem("uip", await crazy.text());
+    })();
+  
+    ws.addEventListener("open", () => {
+      ws.send("clientConnection " + localStorage.getItem("uip"));
+    });
+
+    checkAndAlert();
+  }
+
+  setInterval(connectWS, 1500);
+</script> -->
